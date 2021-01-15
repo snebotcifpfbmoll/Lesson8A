@@ -23,12 +23,13 @@
 
         <ImageButton
             android:id="@+id/team1minus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/button_background_size"
+            android:layout_height="@dimen/button_background_size"
             android:layout_below="@+id/team1label"
             android:layout_alignParentStart="true"
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginTop="@dimen/default_margin"
+            android:background="@drawable/button_background"
             android:contentDescription="@string/minus_button_description"
             android:onClick="decreaseScore"
             android:src="@drawable/ic_minus" />
@@ -47,12 +48,13 @@
 
         <ImageButton
             android:id="@+id/team1plus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/button_background_size"
+            android:layout_height="@dimen/button_background_size"
             android:layout_below="@+id/team1label"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
+            android:background="@drawable/button_background"
             android:contentDescription="@string/plus_button_description"
             android:onClick="increaseScore"
             android:src="@drawable/ic_plus" />
@@ -75,12 +77,13 @@
 
         <ImageButton
             android:id="@+id/team2minus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/button_background_size"
+            android:layout_height="@dimen/button_background_size"
             android:layout_below="@+id/team2label"
             android:layout_alignParentStart="true"
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginTop="@dimen/default_margin"
+            android:background="@drawable/button_background"
             android:contentDescription="@string/minus_button_description"
             android:onClick="decreaseScore"
             android:src="@drawable/ic_minus" />
@@ -99,12 +102,13 @@
 
         <ImageButton
             android:id="@+id/team2plus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/button_background_size"
+            android:layout_height="@dimen/button_background_size"
             android:layout_below="@+id/team2label"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
+            android:background="@drawable/button_background"
             android:contentDescription="@string/plus_button_description"
             android:onClick="increaseScore"
             android:src="@drawable/ic_plus" />
