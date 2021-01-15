@@ -9,16 +9,16 @@
 
     <style name="ScoreButton" parent="Widget.AppCompat.Button">
         <item name="color">@color/colorPrimary</item>
-        <item name="android:background">@drawable/button_background</item>
+        <item name="android:background">@drawable/state_button</item>
     </style>
 
     <style name="PlusButton" parent="ScoreButton">
-        <item name="android:src">@drawable/ic_plus</item>
+        <item name="android:src">@drawable/ic_plus_state</item>
         <item name="contentDescription">@string/plus_button_description</item>
     </style>
 
     <style name="MinusButton" parent="ScoreButton">
-        <item name="android:src">@drawable/ic_minus</item>
+        <item name="android:src">@drawable/ic_minus_state</item>
         <item name="contentDescription">@string/minus_button_description</item>
     </style>
 
