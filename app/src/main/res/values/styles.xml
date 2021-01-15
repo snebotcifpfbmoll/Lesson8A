@@ -7,4 +7,28 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ScoreButton" parent="Widget.AppCompat.Button">
+        <item name="color">@color/colorPrimary</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="PlusButton" parent="ScoreButton">
+        <item name="android:src">@drawable/ic_plus</item>
+        <item name="contentDescription">@string/plus_button_description</item>
+    </style>
+
+    <style name="MinusButton" parent="ScoreButton">
+        <item name="android:src">@drawable/ic_minus</item>
+        <item name="contentDescription">@string/minus_button_description</item>
+    </style>
+
+    <style name="ScoreText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display3</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TeamText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display1</item>
+        <item name="android:textAlignment">center</item>
+    </style>
 </resources>

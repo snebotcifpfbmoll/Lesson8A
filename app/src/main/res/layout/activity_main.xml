@@ -15,27 +15,26 @@
 
         <TextView
             android:id="@+id/team1label"
+            style="@style/TeamText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/team_1"
-            android:textAlignment="center"
             android:textSize="30sp" />
 
         <ImageButton
             android:id="@+id/team1minus"
+            style="@style/MinusButton"
             android:layout_width="@dimen/button_background_size"
             android:layout_height="@dimen/button_background_size"
             android:layout_below="@+id/team1label"
             android:layout_alignParentStart="true"
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginTop="@dimen/default_margin"
-            android:background="@drawable/button_background"
-            android:contentDescription="@string/minus_button_description"
-            android:onClick="decreaseScore"
-            android:src="@drawable/ic_minus" />
+            android:onClick="decreaseScore" />
 
         <TextView
             android:id="@+id/team1counter"
+            style="@style/ScoreText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/team1label"
@@ -43,21 +42,18 @@
             android:layout_toStartOf="@+id/team1plus"
             android:layout_toEndOf="@+id/team1minus"
             android:text="@string/score_initial"
-            android:textAlignment="center"
             android:textSize="40sp" />
 
         <ImageButton
             android:id="@+id/team1plus"
+            style="@style/PlusButton"
             android:layout_width="@dimen/button_background_size"
             android:layout_height="@dimen/button_background_size"
             android:layout_below="@+id/team1label"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
-            android:background="@drawable/button_background"
-            android:contentDescription="@string/plus_button_description"
-            android:onClick="increaseScore"
-            android:src="@drawable/ic_plus" />
+            android:onClick="increaseScore" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -69,27 +65,26 @@
 
         <TextView
             android:id="@+id/team2label"
+            style="@style/TeamText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/team_2"
-            android:textAlignment="center"
             android:textSize="30sp" />
 
         <ImageButton
             android:id="@+id/team2minus"
+            style="@style/MinusButton"
             android:layout_width="@dimen/button_background_size"
             android:layout_height="@dimen/button_background_size"
             android:layout_below="@+id/team2label"
             android:layout_alignParentStart="true"
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginTop="@dimen/default_margin"
-            android:background="@drawable/button_background"
-            android:contentDescription="@string/minus_button_description"
-            android:onClick="decreaseScore"
-            android:src="@drawable/ic_minus" />
+            android:onClick="decreaseScore" />
 
         <TextView
             android:id="@+id/team2counter"
+            style="@style/ScoreText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/team2label"
@@ -97,20 +92,17 @@
             android:layout_toStartOf="@+id/team2plus"
             android:layout_toEndOf="@+id/team2minus"
             android:text="@string/score_initial"
-            android:textAlignment="center"
             android:textSize="40sp" />
 
         <ImageButton
             android:id="@+id/team2plus"
+            style="@style/PlusButton"
             android:layout_width="@dimen/button_background_size"
             android:layout_height="@dimen/button_background_size"
             android:layout_below="@+id/team2label"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
-            android:background="@drawable/button_background"
-            android:contentDescription="@string/plus_button_description"
-            android:onClick="increaseScore"
-            android:src="@drawable/ic_plus" />
+            android:onClick="increaseScore" />
     </RelativeLayout>
 </LinearLayout>
